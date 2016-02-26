@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-brand {
-	margin: 20px 0px 20px 0px;
+	margin: 18px 0px 20px 0px;
 	padding-top: 25px;
 }
 
@@ -34,6 +34,60 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
+
+#nav-list {
+	margin-top: 18px;	
+}
+
+#nav-list a {
+	font-size: 1.2em;
+}
+
+#header-nav button.navbar-toggle {
+	padding: 14px;
+	margin: 18px 15px 0px 0px;
+}
+
+/* END HEADER */
+
+
+.container #lower-body .row-fluid{
+	margin-top: 60px;
+	clear: both;
+}
+
+
+/* Large Devices */
+@media (min-width: 1200px) {
+
+}
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+} 
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+ 	
+}
+/* X-Small Devices */
+@media (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		padding-top: 10px;
+ 		max-width: 
+ 	}
+
+ 	#header-nav .container .navbar-header {
+ 		margin: 0;
+ 	}
+ 	.container #logo-img {
+ 		margin-left: 15px;
+ 	}
+ 	
+ }
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
