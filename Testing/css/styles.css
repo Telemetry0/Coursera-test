@@ -2,9 +2,12 @@ body {
 	font-size: 16px;
 	color: #fff;
 	background-color: #333333;
+	margin: 0 auto; padding: 0; 
 }
-
-#header-nav {
+.container{
+	min-width: 100%;
+}
+#navbar-header {
 	background-color: #123456;
 	border-radius: 0;
 	border: 0;
@@ -43,9 +46,14 @@ body {
 	font-size: 1.2em;
 }
 
-#header-nav button.navbar-toggle {
+#navbar-header button.navbar-toggle {
 	padding: 14px;
 	margin: 18px 15px 0px 0px;
+}
+
+div #navbar-collapse .collapse .navbar-collapse .navbar-default {
+	min-width: 100%;
+	margin: 0 auto;
 }
 
 /* END HEADER */
@@ -59,11 +67,21 @@ body {
 
 /* Large Devices */
 @media (min-width: 1200px) {
+	.container{}
 
-}
+	.main-content .container  {
+		min-width: 100%;
+		padding: 88px 0px 0px 0px;
+
+
+	}
+	
+	
 /* Medium Devices */
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+	.container {
+		min-width: 100%;
+	}
 } 
 /* Small Devices */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -80,7 +98,7 @@ body {
  		max-width: 
  	}
 
- 	#header-nav .container .navbar-header {
+ 	#navbar-header .container .navbar-header {
  		margin: 0;
  	}
  	.container #logo-img {
