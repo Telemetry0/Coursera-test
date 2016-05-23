@@ -6,6 +6,10 @@ body {
 	margin: 0 auto; padding: 0;
 	-webkit-font-smoothing: antialiased; 
 }
+img {
+	display: block;
+	width: 100%;
+}
 
 article  {
 	display: block;
@@ -85,8 +89,10 @@ article  {
 
 /* END HEADER */
 
-header #lower-body h3 {
+#lower-body-heading h3 {
 	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 0px;
 }
 
 .container #lower-body .row-fluid{
